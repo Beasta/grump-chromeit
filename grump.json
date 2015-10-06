@@ -1,0 +1,10 @@
+{
+  "defaultCommand": "talktome",
+  "commands": {
+    "talktome": {
+      "scriptType": "bash",
+      "scriptPath": "talktome.sh",
+      "vars": {}
+    }
+  }
+}
