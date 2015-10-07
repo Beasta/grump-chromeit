@@ -1,9 +1,9 @@
 {
-  "defaultCommand": "talktome",
+  "defaultCommand": "chromeit",
   "commands": {
-    "talktome": {
+    "chromeit": {
       "scriptType": "bash",
-      "scriptPath": "talktome.sh",
+      "scriptPath": "chromeit.sh",
       "vars": {}
     }
   }
