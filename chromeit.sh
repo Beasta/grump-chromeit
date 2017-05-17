@@ -23,5 +23,8 @@ for arg
 do
   browserify $arg > bundle.js
   echo '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Document</title></head><body><script src="' bundle.js '"type="text/javascript"></script></body></html>' > _chromeit.html
+  trap "rm _chromeit.html && rm bundle.js" INT
+  echo "starting live-server which will monitor for file changes"
+  echo "use ctrl+c to kill the process"
   live-server --entry-file="_chromeit.html"
 done
