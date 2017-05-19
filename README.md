@@ -1,7 +1,7 @@
 
 # chromeit
-This bash script makes it easy to run node files in chrome, giving access to chrome's debugging tools. Works great for toy problems.
-The script uses browserify for bundling so that npm modules you can be added using require.
+This bash script makes it easy to run node files in chrome, giving access to chrome's debugging tools. It works great for toy problems.
+The script uses browserify for bundling so that npm modules can be used with require in your javascript file.
 The script also uses live-server to monitor file changes and reload the page.
 
 If grump has not yet been installed, you can do so using:
