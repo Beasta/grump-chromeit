@@ -13,5 +13,6 @@ Example usage:
 ```
 grump chromeit filename.js
 ```
+The script will start live-server and automatically open chrome. When done editing, kill live-server using ctrl-c.
 
-see [grumpJS.com](https://grumpjs.com) to find other useful grumps!
+See [grumpJS.com](https://grumpjs.com) to find other useful grumps!
